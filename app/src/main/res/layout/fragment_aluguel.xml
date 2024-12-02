@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center_horizontal">
+
+    <!-- Código do Exemplar -->
+    <TextView
+        android:id="@+id/textCodigo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Código do Exemplar"
+        android:textSize="16sp"
+        android:layout_marginBottom="8dp"/>
+
+    <EditText
+        android:id="@+id/editCodigo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:hint="Digite o código do exemplar"
+        android:importantForAccessibility="yes"
+        android:layout_marginBottom="16dp"
+        android:padding="12dp"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:minHeight="48dp" />
+
+    <!-- RA do Aluno -->
+    <TextView
+        android:id="@+id/textRA"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="RA do Aluno"
+        android:textSize="16sp"
+        android:layout_marginBottom="8dp"/>
+
+    <EditText
+        android:id="@+id/editRA"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:hint="Digite o RA do aluno"
+        android:importantForAccessibility="yes"
+        android:layout_marginBottom="16dp"
+        android:padding="12dp"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:minHeight="48dp" />
+
+    <!-- Data de Retirada -->
+    <TextView
+        android:id="@+id/textDataRetirada"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Data de Retirada"
+        android:textSize="16sp"
+        android:layout_marginBottom="8dp"/>
+
+    <EditText
+        android:id="@+id/editDataRetirada"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Digite a data de retirada (yyyy-MM-dd)"
+        android:importantForAccessibility="yes"
+        android:inputType="date"
+        android:padding="12dp"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:layout_marginBottom="16dp"
+        android:minHeight="48dp" />
+
+    <!-- Data de Devolução -->
+    <TextView
+        android:id="@+id/textDataDevolucao"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Data de Devolução"
+        android:textSize="16sp"
+        android:layout_marginBottom="8dp"/>
+
+    <EditText
+        android:id="@+id/editDataDevolucao"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Digite a data de devolução (yyyy-MM-dd)"
+        android:importantForAccessibility="yes"
+        android:inputType="date"
+        android:padding="12dp"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:layout_marginBottom="16dp"
+        android:minHeight="48dp" />
+
+    <!-- Botão Salvar -->
+    <Button
+        android:id="@+id/btnSalvar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Salvar Aluguel"
+        android:layout_marginTop="16dp"
+        android:padding="16dp"
+        android:minHeight="48dp" />
+
+    <!-- TextView para mostrar a lista de alugueis -->
+    <TextView
+        android:id="@+id/textLista"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Lista de Aluguéis"
+        android:textSize="16sp"
+        android:layout_marginTop="16dp" />
+</LinearLayout>
+
+

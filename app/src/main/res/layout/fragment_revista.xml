@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/editCodigo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Código"
+        android:inputType="number"
+        android:padding="16dp"
+        android:minHeight="48dp" />
+
+    <EditText
+        android:id="@+id/editNome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nome"
+        android:inputType="text"
+        android:padding="16dp"
+        android:minHeight="48dp" />
+
+    <EditText
+        android:id="@+id/editQtdPaginas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Quantidade de Páginas"
+        android:inputType="number"
+        android:padding="16dp"
+        android:minHeight="48dp" />
+
+    <EditText
+        android:id="@+id/editIsbn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="ISBN"
+        android:inputType="text"
+        android:padding="16dp"
+        android:minHeight="48dp" />
+
+    <EditText
+        android:id="@+id/editEdicao"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Edição"
+        android:inputType="number"
+        android:padding="16dp"
+        android:minHeight="48dp" />
+
+    <Button
+        android:id="@+id/btnSalvar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Salvar"
+        android:layout_marginTop="16dp"
+        android:padding="16dp"
+        android:minHeight="48dp" />
+
+    <TextView
+        android:id="@+id/textLista"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Lista de Revistas"
+        android:textSize="16sp"
+        android:padding="8dp"/>
+</LinearLayout>

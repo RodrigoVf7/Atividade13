@@ -1,11 +1,13 @@
 package br.edu.fateczl.atividade13.model;
+/*@author: RODRIGO VINICIUS FERRAZ DA SILVA
+ *@RA: 1110482313043*/
 
 public class Livro extends Exemplar {
     private String ISBN;
     private int edicao;
 
-    public Livro(int codigo, int qtdPaginas, String ISBN, int edicao) {
-        super(codigo, qtdPaginas);
+    public Livro(int codigo, String nome, int qtdPaginas, String ISBN, int edicao) {
+        super(codigo, nome, qtdPaginas);  // Chama o construtor da classe Exemplar
         this.ISBN = ISBN;
         this.edicao = edicao;
     }
@@ -31,4 +33,5 @@ public class Livro extends Exemplar {
         return super.toString() + ", ISBN: " + ISBN + ", Edição: " + edicao;
     }
 }
+
 
